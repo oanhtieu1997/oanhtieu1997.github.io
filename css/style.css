@@ -1,0 +1,80 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding:0;
+}
+h1{
+	font-family: 'Dancing Script', cursive;
+}
+p{
+	font-family: 'Faster One', cursive;
+}
+h2{
+	font-family: 'Freckle Face', cursive;
+}
+h3{
+	font-family: 'Sriracha', cursive;
+}
+.wrapper{
+	width: 1280px;
+	height: 800px;
+	background: url(../img/little-girl-with-sunflower-in-a-sunflower-field-picjumbo-com.jpg);
+	background-size: cover;
+	margin:0 auto;
+	
+}
+.header{
+	width: 1280px;
+	height: 100px;
+/*	background: blue;*/
+}
+.header .left-menu{
+	width: 33.33%;
+	height: 100px;
+/*	background: #0EFFA1;*/
+	float: left;
+}
+.header .logo{
+	width: 33.33%;
+	height: 100px;
+/*	background: pink;*/
+	float: left;
+}
+.header .right-menu{
+	width: 33.33%;
+	height: 100px;
+/*	background:#4FE000;*/
+	float: left;
+}
+.banner{
+	width: 1280px;
+	height: 700px;
+/*	float: left;*/
+/*	background: #FFEE0A;*/
+}
+.banner img{
+	position: absolute;
+	z-index: 1;
+	top:0;
+	width: 1280px;
+}
+.content{
+	position: relative;
+	width: 800px;
+	height: 600px;
+/*	background: black;*/
+	margin: 0 auto;
+}
+.content img{
+	width: 100%;
+	position: absolute;
+	z-index: 5555;
+}
+.content .text-abs{
+	position: absolute;
+	left: 300px;
+	top:100px;
+	z-index: 5559;
+}
+
+
